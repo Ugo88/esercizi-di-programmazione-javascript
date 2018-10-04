@@ -12,3 +12,10 @@
   Hint: Se vuoi usare l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero superiore solo da .5 in su) ma utilizza Math.ceil (arrotonda sempre all'intero superiore).
   http://www.imparareaprogrammare.it
 */
+
+var numgatti = 44;
+var gatti per file = 10;
+var num file = numgatti/gatti per file;
+var num gatti mancanti = numgatti%gatti per file;
+console.log(num file);
+console.log(num gatti mancanti);
