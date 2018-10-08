@@ -5,8 +5,8 @@
   http://www.imparareaprogrammare.it
 */
 
-var anno di nascita = '1988';
-var anno corrente = '2018';
-var età=anno corrente - anno di nascita;
-console.log('la persona ha'+età+'anni');
-console.log('ai 100 anni mancano' +(100 - età)+'anni');
+var annodinascita = 1988;
+var annocorrente = 2018;
+var età=annocorrente - annodinascita;
+console.log('Ugo ha' + età + 'anni');
+console.log('a Ugo mancano' + (100 - età) + 'anni per fare un secolo');
