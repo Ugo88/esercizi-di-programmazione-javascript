@@ -14,3 +14,36 @@
   Utilizza il costrutto Switch-Case mediante acquisizione di caratteri.
   http://www.imparareaprogrammare.it
 */
+
+var n1=25, n2=24;
+var operazione= 'divisione';
+
+switch (operazione){
+  case 'somma':
+  console.log(n1 + n2);
+  break;
+  case 'sottrazione':
+  console.log(n1 - n2);
+  break;
+  case 'moltiplicazione':
+  console.log(n1 * n2);
+  break;
+  case 'divisione':
+  console.log(n1 / n2);
+  break;
+  case 'modulo':{
+                  if (Number.isInteger(n1) && Number.isInteger(n2))
+                  console.log(n1 % n2);
+                 else
+                  console.log('Operazione non possibile');
+                }
+  break;
+  case 'potenza':
+  console.log(n1 ^ n2);
+  break;
+  case 'media':
+  console.log((n1 + n2)/2);
+  break;
+  default:
+  console.log('operazione non esistente');
+}
