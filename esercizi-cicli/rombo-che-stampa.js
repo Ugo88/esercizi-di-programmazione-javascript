@@ -11,6 +11,8 @@
   Hint: per indentare puoi usare il tab con '\t'.
   http://www.imparareaprogrammare.it
 */
+
+
 var diag = 5;
 var MaxLettere = 1, MaxTab = diag / 2;
 var ContaTab = 0;
