@@ -27,7 +27,7 @@ console.log(array);
 var prova = isZero();
 console.log('il risultato è '+ prova);
 do{
-    var ins = prompt ('inserisci un numero, oppure digita STOP per terminare');
+    var ins = prompt ('inserisci un numero');
   array.forEach(function (number,posizione,arrayapp){
       if (number % ins == 0){
           arrayapp[posizione] = 0;
