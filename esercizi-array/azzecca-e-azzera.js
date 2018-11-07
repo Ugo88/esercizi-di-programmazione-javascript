@@ -6,7 +6,6 @@
   Hint: Per generare un numero casuale utlizza la funzione javascript random, che restituisce un intervallo compreso tra 0 e 1 che necessita di essere convertito per il tuo intervallo.
   http://www.imparareaprogrammare.it
 */
-
 var array = [1];
 array.length = 100;
 var i =0;
