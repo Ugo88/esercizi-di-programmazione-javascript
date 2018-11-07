@@ -10,7 +10,6 @@
 var array = [1];
 array.length = 100;
 var i =0;
-
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
