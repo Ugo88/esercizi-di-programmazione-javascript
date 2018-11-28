@@ -10,3 +10,12 @@
             0
   http://www.imparareaprogrammare.it
 */
+function timer (number){
+        while (number > 0){
+          number--;
+          console.log(number);
+        }
+        }
+
+var x = 5;
+console.log(timer (x));

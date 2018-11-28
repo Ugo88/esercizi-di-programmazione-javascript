@@ -14,6 +14,8 @@ function getRandomIntInclusive(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive
 }
+
+
 for (i=0; i < array.length; i++){
 array[i]= getRandomIntInclusive(1, 50);
 somma = somma + array[i];
