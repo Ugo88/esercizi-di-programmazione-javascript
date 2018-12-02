@@ -7,3 +7,16 @@
             4
   http://www.imparareaprogrammare.it
 */
+var numero=13456;
+var contatore=4;
+function sembradifficile (N,K){
+   var string=N.toString();
+   var index=string.length - K;
+   if(index>=0){
+    console.log(string.charAt(index));
+   }
+   else {
+     return 0;
+   }
+}
+sembradifficile(numero,contatore);
