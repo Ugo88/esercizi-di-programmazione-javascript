@@ -17,10 +17,15 @@
 
   http://www.imparareaprogrammare.it
 */
-var gatti = 22;
+var gatti = 25;
 var gattiPerFila = 5;
+var gattiMancanti = 0;
 var file = gatti / gattiPerFila;
-var gattiMancanti = gattiPerFila - (gatti % gattiPerFila);
+var resto = gatti % gattiPerFila;
+if (resto != 0){
+    var gattiMancanti = gattiPerFila - resto;
+  }
+
 
 console.log('Le file totali sono ' + Math.ceil(file));
 console.log('Per completare la fila finale mancano ' + Math.ceil(gattiMancanti) + ' gatti');
